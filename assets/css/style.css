@@ -456,7 +456,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .about-layout .about-image {
-  flex: 0 0 300px;
+  flex: 0 0 auto;
 }
 
 .about-layout .about-image img {
