@@ -415,6 +415,10 @@ body.nav-active { overflow: hidden; }
   #ABOUT
 \*-----------------------------------*/
 
+.skills-wrapper {
+  grid-template-columns: 1fr !important;
+}
+
 .about .wrapper {
   display: grid;
   gap: 50px;

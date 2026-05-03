@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Portfolio - Naini Diwan</title>
+  <meta name="title" content="Naini Diwan">
+  <meta name="description" content="This is my personal portfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="abstract-atom.png" type="image/png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="https://naini-diwan.github.io/Hello-Naini/" class="logo">
+        <img src="./assets/images/logo-dark.png" width="64" height="24" alt="Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="https://naini-diwan.github.io/Hello-Naini/" class="logo">
+            <img src="./assets/images/logo-light.png" width="64" height="24" alt="Logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="blogs.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:diwannaini90@gmail.com" class="contact-link">Email Me</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/naini-diwan-profile786" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <!--<li>
+            <a href="mailto:diwannaini90@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>-->
+
+          <!--<li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>-->
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+          <p class="section-text" style="margin-top: 40px;">
+                Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis
+                risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus
+                magna, vel scelerisque nisl.
+            </p>
+          <div class="wrapper skills-wrapper">
+
+            <div data-reveal="left">
+              <h2 style= "margin-top: 40px;" class="h2 section-title">My academic journey so far...</h2>    
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+                <h2 style= "margin-top: -40px;">BS-MS in Physics</h2>
+
+                <div class="label-wrapper">
+                  <p>Indian Institute of Science Education and Research, Bhopal</p>
+
+                  <span class="span">2023 - Present</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+                <h2 style="margin-top: 20px;" >BS in Data Science and Applications</h2>
+                <div class="label-wrapper">
+                  <p>Indian Institute of Technology, Madras</p>
+
+                  <span class="span">2023 - Present</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+                <h2 style="margin-top: 20px;" >12th Grade</h2>
+                <div class="label-wrapper">
+                  <p>Mahavir Jain H. S. School, Itarsi</p>
+
+                  <span class="span">2022 - 2023</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+                <h2 style="margin-top: 20px;" >6th -11th Grade</h2>
+                <div class="label-wrapper">
+                  <p>Jawahar Navodaya Vidyalaya, Narmadapuram</p>
+
+                  <span class="span">2016 - 2022</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+          
+          <div data-reveal="left">
+              <h2 style= "margin-top: 20px;" class="h2 section-title">Technical Skills</h2>    
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Mobile Design</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Development</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">SEO</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon" style="display: flex; gap: 8px;">
+                <a href="mailto:diwannaini90@gmail.com">
+                    <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                </a>
+              </div>
+
+              <h2 class="h2 section-title">Feel free to reach out!</h2>
+
+              <p class="section-text">
+                I'm open to research collaborations, academic discussions, and volunteering for causes that drive social good.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2026 Naini Diwan. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/naini-diwan-profile786" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

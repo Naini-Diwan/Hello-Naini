@@ -9,14 +9,14 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Naini </title>
+  <title>Portfolio - Naini Diwan</title>
   <meta name="title" content="Naini Diwan">
   <meta name="description" content="This is my personal portfolio">
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="Naini-Headshot-sea.png" type="image/png">
+  <link rel="shortcut icon" href="abstract-atom.png" type="image/png">
 
   <!-- 
     - google font link
@@ -47,14 +47,14 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
+      <a href="https://naini-diwan.github.io/Hello-Naini/" class="logo">
         <img src="./assets/images/logo-dark.png" width="64" height="24" alt="Logo">
       </a>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="https://naini-diwan.github.io/Hello-Naini/" class="logo">
             <img src="./assets/images/logo-light.png" width="64" height="24" alt="Logo">
           </a>
 
@@ -82,13 +82,13 @@
           </li>
 
           <li>
-            <a href="contacts.html" class="navbar-link">Contact</a>
+            <a href="#contact" class="navbar-link">Contact</a>
           </li>
 
         </ul>
 
         <div class="wrapper">
-          <a href="mailto:diwannaini90@gmail.com" class="contact-link">diwannaini90@gmail.com</a>
+          <a href="mailto:diwannaini90@gmail.com" class="contact-link">Email Me</a>
         </div>
 
         <ul class="social-list">
@@ -104,6 +104,12 @@
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li>
+
+          <!--<li>
+            <a href="mailto:diwannaini90@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>-->
 
           <!--<li>
             <a href="#" class="social-link">
@@ -161,17 +167,26 @@
           </figure>
 
           <div class="hero-content">
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Namaskar!
+            </h1>
 
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              This is Naini Diwan (she/her). I'm pursuing an integrated master's in Physics at <a href="https://www.iiserb.ac.in" target="_blank" rel="noopener noreferrer" style="display: inline; text-decoration: underline;">IISER Bhopal</a>, along with a BS in Data Science and Applications at <a href="https://study.iitm.ac.in" target="_blank" rel="noopener noreferrer" style="display: inline; text-decoration: underline;">IIT Madras</a>. I was born and brought up in Madhya Pradesh, the heart of India.
+            </p>
+            <!--
             <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
               Research-Focused Undergrad in Physics & Data Science.
             </h1>
 
             <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              Namaskar! I'm Naini, an aspiring researcher with a soul drawn to art, poetry & learning new languages. I was born and brought up in Madhya Pradesh, the heart of India.
+              Hello! I'm Naini Diwan, an aspiring researcher with a soul drawn to art, poetry & learning new languages. I was born and brought up in Madhya Pradesh, the heart of India.
+            </p>
+            -->
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
               <a href="projects.html" class="btn btn-primary">See My Work</a>
 
-              <a href="contacts.html" class="btn btn-secondary">Contact Me</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
 
           </div>
@@ -500,15 +515,17 @@
         - #CONTACT
       -->
 
-      <section class="section contact" aria-label="contact">
+      <section class="section contact" id="contact" aria-label="contact">
         <div class="container">
 
           <div class="contact-card">
 
             <div class="contact-content" data-reveal="left">
 
-              <div class="card-icon">
-                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              <div class="card-icon" style="display: flex; gap: 8px;">
+                <a href="mailto:diwannaini90@gmail.com">
+                    <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                </a>
               </div>
 
               <h2 class="h2 section-title">Feel free to reach out!</h2>
