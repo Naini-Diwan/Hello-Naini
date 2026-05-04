@@ -2,12 +2,6 @@
   #main.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
 
 
 /*-----------------------------------*\
@@ -461,7 +455,6 @@ body.nav-active { overflow: hidden; }
 
 .about-layout .about-image img {
   width: 100%;
-  border-radius: 12px;
   object-fit: cover;
 }
 
@@ -620,6 +613,8 @@ textarea.input-field {
    */
 
   .contact-card { padding: 68px; }
+  .contact { border-block-start: 1px solid var(--cadet-blue-crayola_a20); }
+
 
 }
 

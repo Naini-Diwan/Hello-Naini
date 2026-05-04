@@ -4,7 +4,7 @@
 
   A fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https:/Naini-Diwan.github.io/Hello-Naini/"><strong>➥ Click here to visit the website</strong></a>
+  <a href="naini-diwan.github.io/Hello-Naini/"><strong>➥ Click here to visit the website</strong></a>
 
 </div>
 
