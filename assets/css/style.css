@@ -78,7 +78,9 @@
 }
 
 
-
+figcaption {
+  text-align: center;
+}
 
 
 /*-----------------------------------*\
@@ -147,7 +149,31 @@ body.nav-active { overflow: hidden; }
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
 
+/*-----------------------------------*\
+  #INDEX PAGE - PROJECT CARDS
+\*-----------------------------------*/
 
+@media (min-width: 992px) {
+
+  .index-projects .grid-list {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .index-projects .grid-list > li {
+    grid-column: auto !important;
+  }
+
+  .index-projects :is(.project-card-3, .project-card-4) {
+    flex-direction: column !important;
+    gap: 0 !important;
+    height: 100%;
+  }
+
+  .index-projects :is(.project-card-3, .project-card-4) .card-content {
+    padding: 24px !important;
+  }
+
+}
 
 
 /*-----------------------------------*\
