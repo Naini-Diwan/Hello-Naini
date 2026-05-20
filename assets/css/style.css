@@ -471,6 +471,9 @@ body.nav-active { overflow: hidden; }
   margin-top: 40px;
 }
 
+/* Add this right after the .about-layout block */
+.about-layout { flex-direction: column; }
+
 .about-layout .about-text {
   flex: 1;
 }
@@ -670,7 +673,8 @@ textarea.input-field {
 
   .about .grid-list { grid-template-columns: 1fr 1fr; }
 
-
+  /* Add this inside the existing @media (min-width: 768px) block */
+  .about-layout { flex-direction: row; }
 
   /**
    * PROJECT
