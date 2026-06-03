@@ -487,6 +487,13 @@ body.nav-active { overflow: hidden; }
   object-fit: cover;
 }
 
+/* This is for better functioning on mobile screens */
+@media (max-width: 767px) {
+  .about-layout {
+    flex-direction: column !important;
+  }
+}
+
 .about-card { text-align: center; }
 
 .about-card .card-icon {
