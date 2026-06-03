@@ -488,7 +488,7 @@ body.nav-active { overflow: hidden; }
 }
 
 /* This is for better functioning on mobile screens */
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .about-layout {
     flex-direction: column !important;
   }
