@@ -377,7 +377,10 @@ body.nav-active { overflow: hidden; }
   display: flex;
   margin-top: auto;
 }
-
+.navbar .social-list .social-link {
+  color: var(--white);
+  font-size: 2rem;
+}
 
 
 /*-----------------------------------*\
