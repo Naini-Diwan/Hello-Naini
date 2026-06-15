@@ -375,7 +375,7 @@ body.nav-active { overflow: hidden; }
 
 .navbar .social-list {
   display: flex;
-  margin-top: auto;
+  margin-top: 0;
 }
 .navbar .social-list .social-link {
   color: var(--white);
