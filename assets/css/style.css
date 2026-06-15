@@ -372,7 +372,7 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
   opacity: 0.8;
 }
-
+/* For mobile devices */
 .navbar .social-list {
   display: flex;
   margin-top: 0;
@@ -389,6 +389,10 @@ body.nav-active { overflow: hidden; }
 @media (min-width: 992px) {
   .navbar-list { margin-block-end: auto; }
   .navbar .social-list { margin-top: auto; }
+  .navbar .social-link {
+    color: var(--charcoal);
+    font-size: 2rem;
+  }
 }
 
 /*-----------------------------------*\
