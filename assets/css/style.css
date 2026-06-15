@@ -389,7 +389,7 @@ body.nav-active { overflow: hidden; }
 @media (min-width: 992px) {
   .navbar-list { margin-block-end: auto; }
   .navbar .social-list { margin-top: auto; }
-  .navbar .social-link {
+  .navbar .social-list .social-link {
     color: var(--charcoal);
     font-size: 2rem;
   }
