@@ -377,11 +377,19 @@ body.nav-active { overflow: hidden; }
   display: flex;
   margin-top: 0;
 }
+
 .navbar .social-list .social-link {
   color: var(--white);
   font-size: 2rem;
 }
 
+.navbar-list { margin-block-end: 0; }
+
+/* Desktop: restore original layout */
+@media (min-width: 992px) {
+  .navbar-list { margin-block-end: auto; }
+  .navbar .social-list { margin-top: auto; }
+}
 
 /*-----------------------------------*\
   #HERO
