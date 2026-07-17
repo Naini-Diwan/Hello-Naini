@@ -1,12 +1,3 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -388,7 +379,7 @@ body.nav-active { overflow: hidden; }
 /* Desktop: restore original layout */
 @media (min-width: 992px) {
   .navbar-list { margin-block-end: auto; }
-  .navbar .social-list { margin-top: auto; }
+  /*.navbar .social-list { margin-top: auto; }*/
   .navbar .social-list .social-link {
     color: var(--charcoal);
     font-size: 1.8rem;
